@@ -21,9 +21,12 @@ const Fib = () => {
     fetchIndexes()
   }, [])
 
+  console.log(seenIndexes)
+  console.log(values)
+
   return (
     <div>
-      <h1>The application</h1>
+      <h1>The application version 2!</h1>
       <form
         onSubmit={async e => {
           e.preventDefault()
